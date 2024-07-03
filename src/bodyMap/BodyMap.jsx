@@ -93,6 +93,9 @@ export const BodyMap = () => {
 
     return (
         <>
+            <div className={style.header}>
+                <p>{clickedName || txt[lang][0]}</p>
+            </div>
             <div className={style.bodies}>
                 <div>
                     <p>{txt[lang][1]}</p>
