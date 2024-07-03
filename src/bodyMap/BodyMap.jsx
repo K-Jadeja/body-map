@@ -93,13 +93,6 @@ export const BodyMap = () => {
 
     return (
         <>
-            <div className={style.header}>
-                <p>{clickedName || txt[lang][0]}</p>
-                <select value={lang} onChange={handleChangeLang} className={style.select}>
-                    <option value="fr">Français</option>
-                    <option value="en">English</option>
-                </select>
-            </div>
             <div className={style.bodies}>
                 <div>
                     <p>{txt[lang][1]}</p>
